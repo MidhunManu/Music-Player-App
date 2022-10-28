@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
-                Toast.makeText(MainActivity.this , "Permission Granted" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this , "Permission Denied" , Toast.LENGTH_SHORT).show();
             }
 
             @Override
